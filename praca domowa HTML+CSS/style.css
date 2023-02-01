@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+margin: 20px 50px;
+font-family: "Lexend Deca";
+}
+    #logo-ipsum {
+        position: relative;
+        top: 15px;
+        width: 83px;
+        height: 42px;
+    }
+    button {
+        font-family: "Lexend Deca";
+        border: 1px solid;
+        border-radius: 10px;
+    
+    } 
+    a{
+        color: #000;
+        text-decoration: none;
+    }
+    .frame {
+        border: 1px solid;
+        border-radius: 10px;
+        margin: 15px 5px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #header {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .header-tx {
+        font-size: 18px;
+    }
+    #search-box {
+        display: flex;
+        justify-content: inherit;
+    }
+    #search-icon {
+        position: relative;
+        left: -50px;
+        top: 3px;
+    }
+    #search {
+        width: 400px;
+        bottom: 15px;
+        padding: 20px 10px;
+        left: 40px;
+        height: 30px;
+        border-radius: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;;
+    }
+     #job {
+        width: 130px;
+        height: 40px;
+        border-color: #0000;
+        background-color: #490DF4;
+        font-weight: 600;
+        font-size: 16px;
+        border: 3px solid;
+        border-radius: 10px;
+    }
+    #job-tx {
+        color: #ffff;    
+    }
+    #sig-in {
+        font-family: "Lexend Deca";
+        width: 130px;
+        height: 40px;
+        font-weight: 800; 
+        font-size: 16px;
+        border: 2px solid;
+        border-radius: 10px;
+        padding-left: 25px;
+
+    }
+    #filters-top {    
+        background-color: #000; 
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-left: 60px;
+    } 
+    #git {
+        font-family: "Lexend Deca";
+        font-weight: 500;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 80px;
+        height: 35px;
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+    #ftop-two {
+        font-family: "Lexend Deca";
+        background-color:#000;
+        color: #ffff;
+        font-size: 14px;
+        border: 1px solid;
+        border-radius: 10px;
+        height: 40px;
+        width: 80px;
+        margin: 15px 0px;
+        padding-left: 10px;
+    } 
+    #ftop-three {
+        font-family: "Lexend Deca";
+        background-color:#000;
+        color: #ffff;
+        font-size: 14px;
+        border: 1px solid;
+        border-radius: 10px;
+        height: 40px;
+        width: 160px;
+        margin:15px 30px 15px 100px;
+        padding-left: 10px;
+    }
+    .ftop {
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        background-color: #000;
+        color: #ffff;
+        border-color: #ffff;
+        font-size: 16px;
+        padding: 5px 10px;
+        width: 110px;
+    } 
+    .ft-one {
+        box-shadow: -4px 0px #31E8FF;
+    }
+    .ft-two {
+        box-shadow: -4px 0px #00FF93;
+    }
+    .ft-three{ 
+        box-shadow: -4px 0px #8415FF;
+    }
+    .ft-four {
+        box-shadow: -4px 0px #FD4DC7;
+    }
+    .ft-five {
+        box-shadow: -4px 0px #FF8227;
+    }
+    .ft-six {
+        box-shadow: -4px 0px #FDFF00;
+    }
+    #filters-bottom {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 50px;
+        background-color:#ffff;
+    }
+    .fbottom{
+        font-size: 16px;
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        background-color: #ffff;
+        border: none;
+    }
+    .fbottom-two {
+        background-color: #ffff;
+        font-size: 14px;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 120px;
+        height: 35px;
+    }
+    #option {
+        margin-top: 20px;
+        
+    }
+    #option-top {
+        display: flex;
+        justify-content: space-between;
+    }
+    #option-bottom {
+    overflow-y: scroll;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+        background-color: #fff;
+        }
+        ::-webkit-scrollbar-thumb {
+        background-color: #000;
+        border-radius: 10px;
+        }
+        ::-webkit-scrollbar-track-piece {
+        margin: 150px;
+        }
+    #option-top-one {
+        margin-left: 15px;
+    }
+    #option-top-two {
+        margin-right: 15px;
+    }
+     .op-top{
+        background-color: #ffff;
+        border: 1px solid;
+        border-radius: 10px;
+        width: 30px;
+        height: 30px;
+    
+    }
+    #sort-by {
+        font-family: "Lexend Deca";
+        color: #490DF4;
+        border:none; 
+        text-decoration: underline;
+        font-size: 16px;
+        margin-right: 20px;
+    }
+    #option-one{
+        box-shadow: -4px 1px #8415FF;
+    }
+    .option-base {
+        display: flex;
+        justify-content: center;
+    }
+    #op-one-top-left {
+        position: relative;
+        left: 10px;
+    }
+    #remote {
+        margin-left: 20px;
+    }
+    #op-one-bottom-left {
+        position: relative;
+        top: 50px;
+        left: -350px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    #op-two-bottom-left {
+        position: relative;
+        top: 50px;
+        left: -260px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    
+    #op-one-top-right {
+        position: relative;
+        left: 150px;
+    }
+    
+    .heart {
+        position: relative;
+        left: 160px;
+    }
+    #op-one-bottom-right {
+        position: relative;
+        top: 40px;
+        left: -50px;
+    }
+    #option-two{
+        box-shadow: -4px 1px #FF8227;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #option-three{
+        box-shadow: -4px 1px #FDFF00;
+    }
+    #option-four{
+        box-shadow: -4px 1px #00FF93;
+      
+    }
+
+    .cash{
+        color: #490DF4;
+        font-size: 16px;
+        font-weight: 900;
+    }
+    .qa {
+        display: flex;
+        justify-content: end;
+        width: 130px;
+        height: 30px;
+        font-weight: 700; 
+        font-size: 16px;
+        border: 2px solid;
+        border-radius: 10px;
+        background-color: #ffff;
+    }
+    .line {
+        border: 1px solid #B5BDC7; height: 15px;
+        margin: 0px 5px;
+    }
+    .ruby {
+        font-weight: 800; 
+        font-size: 12px;
+        border: none;
+        border-radius: 6px;
+        background-color: #F9F9FC;
+    }
+    .js-sql {
+        margin: 0px 5px;
+        font-weight: 500; 
+        font-size: 12px;
+        border: none;
+        border-radius: 6px;
+        background-color: #F9F9FC;
+        }
+ 
+    .qa {
+                width: 140px;
+                height: 40px;
+                font-weight: 700; 
+                font-size: 18px;
+                border: 2px solid;
+                border-radius: 10px;
+                background-color: #ffff;
+                position: relative;
+                top: 16px;
+                display: flex;
+                align-items: center;
+    }
