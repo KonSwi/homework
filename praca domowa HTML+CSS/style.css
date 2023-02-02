@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-body {
-margin: 20px 50px;
-font-family: "Lexend Deca";
-}
+    body {
+        margin: 20px 50px;
+        font-family: "Lexend Deca";
+    }
+    #all {
+    min-width: 1400px;
+    }
     #logo-ipsum {
         position: relative;
         top: 15px;
@@ -13,7 +16,6 @@ font-family: "Lexend Deca";
         font-family: "Lexend Deca";
         border: 1px solid;
         border-radius: 10px;
-    
     } 
     a{
         color: #000;
@@ -38,7 +40,6 @@ font-family: "Lexend Deca";
     }
     #search-box {
         display: flex;
-        justify-content: inherit;
     }
     #search-icon {
         position: relative;
@@ -78,7 +79,6 @@ font-family: "Lexend Deca";
         border: 2px solid;
         border-radius: 10px;
         padding-left: 25px;
-
     }
     #filters-top {    
         background-color: #000; 
@@ -176,41 +176,39 @@ font-family: "Lexend Deca";
     }
     #option {
         margin-top: 20px;
-        
     }
     #option-top {
         display: flex;
         justify-content: space-between;
     }
     #option-bottom {
-    overflow-y: scroll;
+        overflow-y: scroll;
     }
     ::-webkit-scrollbar {
         width: 10px;
-        }
-        ::-webkit-scrollbar-track {
+    }
+    ::-webkit-scrollbar-track {
         background-color: #fff;
-        }
-        ::-webkit-scrollbar-thumb {
+    }
+    ::-webkit-scrollbar-thumb {
         background-color: #000;
         border-radius: 10px;
-        }
-        ::-webkit-scrollbar-track-piece {
+    }
+    ::-webkit-scrollbar-track-piece {
         margin: 150px;
-        }
+    }
     #option-top-one {
         margin-left: 15px;
     }
     #option-top-two {
         margin-right: 15px;
     }
-     .op-top{
+    .op-top{
         background-color: #ffff;
         border: 1px solid;
         border-radius: 10px;
         width: 30px;
         height: 30px;
-    
     }
     #sort-by {
         font-family: "Lexend Deca";
@@ -248,12 +246,10 @@ font-family: "Lexend Deca";
         flex-wrap: wrap;
         display: flex;
     }
-    
     #op-one-top-right {
         position: relative;
         left: 150px;
     }
-    
     .heart {
         position: relative;
         left: 160px;
@@ -268,15 +264,12 @@ font-family: "Lexend Deca";
         display: flex;
         justify-content: space-between;
     }
-    
     #option-three{
         box-shadow: -4px 1px #FDFF00;
     }
     #option-four{
         box-shadow: -4px 1px #00FF93;
-      
     }
-
     .cash{
         color: #490DF4;
         font-size: 16px;
@@ -311,18 +304,18 @@ font-family: "Lexend Deca";
         border: none;
         border-radius: 6px;
         background-color: #F9F9FC;
-        }
- 
-    .qa {
-                width: 140px;
-                height: 40px;
-                font-weight: 700; 
-                font-size: 18px;
-                border: 2px solid;
-                border-radius: 10px;
-                background-color: #ffff;
-                position: relative;
-                top: 16px;
-                display: flex;
-                align-items: center;
+    }
+   .qa {
+    width: 140px;
+    height: 40px;
+    font-weight: 700; 
+    font-size: 18px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #ffff;
+    position: relative;
+    top: 16px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;        
     }
